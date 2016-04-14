@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+
+	<link rel='stylesheet' type='text/css' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel='stylesheet' type='text/css' href='styles.css'>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<script type='text/javascript' src='script.js'></script>
+
+	<title>Wikipedia Lookup</title>
+</head>
+<body>
+<div class='container'>
+	<div class = 'row'>
+		<div class = 'col-sm-8 col-sm-offset-2 text-center'>
+			<div id='spacer'></div>
+			<h3><a href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Random wiki article</a></h3>
+			<form id='search-form'>
+				<div class='form-group'>
+					<input type='text' class='form-control' id='search'>
+					<h3>Enter text to search</h3>
+				</div>
+			</form>
+
+		</div>
+	</div>
+	<div class = 'row' id='results-container'>
+		<div id = 'results' class = 'col-sm-8 col-sm-offset-2'>
+		</div>
+	</div>
+</div>
+
+
+
+</body>
+</html>
